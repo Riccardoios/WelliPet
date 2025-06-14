@@ -9,20 +9,26 @@ import SwiftUI
 
 @Observable
 class TamagociViewModel {
-    var life: Double = 1.0
-
-    init() {}
+    private var heartRateManager = HeartRateManager()
     
-    private func getHealthStatus() -> TamagociStatus {
-        return .dead
+    var currentHeartRate: Double {
+        heartRateManager.currentHeartRate
+    }
+    
+    var status: TamagociStatus {
+        if currentHeartRate < 100 {
+            return .verySad
+        } else {
+            return .happy
+        }
     }
 
-    deinit {}
+    init() {}
 }
 
 enum TamagociStatus {
     case happy
-    case dead
+    case verySad
     
     var images: [Image] {
         switch self {
@@ -33,13 +39,22 @@ enum TamagociStatus {
                 Image("happy-3"),
                 Image("happy-4"),
             ]
-        case .dead:
+        case .verySad:
             return [
                 Image("dead-1"),
                 Image("dead-2"),
                 Image("dead-3"),
                 Image("dead-4"),
             ]
+        }
+    }
+    
+    var life: Double {
+        switch self {
+        case .happy:
+            return 0.8
+        case .verySad:
+            return 0.2
         }
     }
 }
