@@ -16,7 +16,7 @@ class TamagociViewModel {
     }
     
     var status: TamagociStatus {
-        if currentHeartRate < 100 {
+        if currentHeartRate < 80 {
             return .verySad
         } else {
             return .happy
