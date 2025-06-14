@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A02A12D2DFD95BF003EDCCC /* Tamagoci wellness Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A02A12C2DFD95BF003EDCCC /* Tamagoci wellness Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A02A12E2DFD95BF003EDCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A02A1202DFD95BF003EDCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A02A12B2DFD95BF003EDCCC;
+			remoteInfo = "Tamagoci wellness Watch App";
+		};
+		3A02A13C2DFD95C0003EDCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A02A1202DFD95BF003EDCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A02A12B2DFD95BF003EDCCC;
+			remoteInfo = "Tamagoci wellness Watch App";
+		};
+		3A02A1462DFD95C0003EDCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A02A1202DFD95BF003EDCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A02A12B2DFD95BF003EDCCC;
+			remoteInfo = "Tamagoci wellness Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A02A1522DFD95C0003EDCCC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3A02A12D2DFD95BF003EDCCC /* Tamagoci wellness Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A02A1262DFD95BF003EDCCC /* Tamagoci wellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tamagoci wellness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A02A12C2DFD95BF003EDCCC /* Tamagoci wellness Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tamagoci wellness Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A02A13B2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tamagoci wellness Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A02A1452DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tamagoci wellness Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A02A1302DFD95BF003EDCCC /* Tamagoci wellness Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tamagoci wellness Watch App";
+			sourceTree = "<group>";
+		};
+		3A02A13E2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tamagoci wellness Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3A02A1482DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tamagoci wellness Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A02A1292DFD95BF003EDCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A1382DFD95C0003EDCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A1422DFD95C0003EDCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A02A11F2DFD95BF003EDCCC = {
+			isa = PBXGroup;
+			children = (
+				3A02A1302DFD95BF003EDCCC /* Tamagoci wellness Watch App */,
+				3A02A13E2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests */,
+				3A02A1482DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests */,
+				3A02A1272DFD95BF003EDCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A02A1272DFD95BF003EDCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A02A1262DFD95BF003EDCCC /* Tamagoci wellness.app */,
+				3A02A12C2DFD95BF003EDCCC /* Tamagoci wellness Watch App.app */,
+				3A02A13B2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests.xctest */,
+				3A02A1452DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A02A1252DFD95BF003EDCCC /* Tamagoci wellness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A02A1532DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness" */;
+			buildPhases = (
+				3A02A1242DFD95BF003EDCCC /* Resources */,
+				3A02A1522DFD95C0003EDCCC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A02A12F2DFD95BF003EDCCC /* PBXTargetDependency */,
+			);
+			name = "Tamagoci wellness";
+			packageProductDependencies = (
+			);
+			productName = "Tamagoci wellness";
+			productReference = 3A02A1262DFD95BF003EDCCC /* Tamagoci wellness.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3A02A12B2DFD95BF003EDCCC /* Tamagoci wellness Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A02A14F2DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness Watch App" */;
+			buildPhases = (
+				3A02A1282DFD95BF003EDCCC /* Sources */,
+				3A02A1292DFD95BF003EDCCC /* Frameworks */,
+				3A02A12A2DFD95BF003EDCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3A02A1302DFD95BF003EDCCC /* Tamagoci wellness Watch App */,
+			);
+			name = "Tamagoci wellness Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Tamagoci wellness Watch App";
+			productReference = 3A02A12C2DFD95BF003EDCCC /* Tamagoci wellness Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A02A13A2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A02A1562DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness Watch AppTests" */;
+			buildPhases = (
+				3A02A1372DFD95C0003EDCCC /* Sources */,
+				3A02A1382DFD95C0003EDCCC /* Frameworks */,
+				3A02A1392DFD95C0003EDCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A02A13D2DFD95C0003EDCCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A02A13E2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests */,
+			);
+			name = "Tamagoci wellness Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Tamagoci wellness Watch AppTests";
+			productReference = 3A02A13B2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A02A1442DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A02A1592DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness Watch AppUITests" */;
+			buildPhases = (
+				3A02A1412DFD95C0003EDCCC /* Sources */,
+				3A02A1422DFD95C0003EDCCC /* Frameworks */,
+				3A02A1432DFD95C0003EDCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A02A1472DFD95C0003EDCCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A02A1482DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests */,
+			);
+			name = "Tamagoci wellness Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tamagoci wellness Watch AppUITests";
+			productReference = 3A02A1452DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A02A1202DFD95BF003EDCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3A02A1252DFD95BF003EDCCC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3A02A12B2DFD95BF003EDCCC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3A02A13A2DFD95C0003EDCCC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3A02A12B2DFD95BF003EDCCC;
+					};
+					3A02A1442DFD95C0003EDCCC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3A02A12B2DFD95BF003EDCCC;
+					};
+				};
+			};
+			buildConfigurationList = 3A02A1232DFD95BF003EDCCC /* Build configuration list for PBXProject "Tamagoci wellness" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A02A11F2DFD95BF003EDCCC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A02A1272DFD95BF003EDCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A02A1252DFD95BF003EDCCC /* Tamagoci wellness */,
+				3A02A12B2DFD95BF003EDCCC /* Tamagoci wellness Watch App */,
+				3A02A13A2DFD95C0003EDCCC /* Tamagoci wellness Watch AppTests */,
+				3A02A1442DFD95C0003EDCCC /* Tamagoci wellness Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A02A1242DFD95BF003EDCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A12A2DFD95BF003EDCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A1392DFD95C0003EDCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A1432DFD95C0003EDCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A02A1282DFD95BF003EDCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A1372DFD95C0003EDCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A02A1412DFD95C0003EDCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A02A12F2DFD95BF003EDCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A02A12B2DFD95BF003EDCCC /* Tamagoci wellness Watch App */;
+			targetProxy = 3A02A12E2DFD95BF003EDCCC /* PBXContainerItemProxy */;
+		};
+		3A02A13D2DFD95C0003EDCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A02A12B2DFD95BF003EDCCC /* Tamagoci wellness Watch App */;
+			targetProxy = 3A02A13C2DFD95C0003EDCCC /* PBXContainerItemProxy */;
+		};
+		3A02A1472DFD95C0003EDCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A02A12B2DFD95BF003EDCCC /* Tamagoci wellness Watch App */;
+			targetProxy = 3A02A1462DFD95C0003EDCCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A02A14D2DFD95C0003EDCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A02A14E2DFD95C0003EDCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3A02A1502DFD95C0003EDCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tamagoci wellness";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		3A02A1512DFD95C0003EDCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tamagoci wellness";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		3A02A1542DFD95C0003EDCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tamagoci wellness";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A02A1552DFD95C0003EDCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tamagoci wellness";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A02A1572DFD95C0003EDCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tamagoci wellness Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tamagoci wellness Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		3A02A1582DFD95C0003EDCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tamagoci wellness Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tamagoci wellness Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		3A02A15A2DFD95C0003EDCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tamagoci wellness Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		3A02A15B2DFD95C0003EDCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "riccardo.tamagoci.wellness.Tamagoci-wellness-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tamagoci wellness Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A02A1232DFD95BF003EDCCC /* Build configuration list for PBXProject "Tamagoci wellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A02A14D2DFD95C0003EDCCC /* Debug */,
+				3A02A14E2DFD95C0003EDCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A02A14F2DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A02A1502DFD95C0003EDCCC /* Debug */,
+				3A02A1512DFD95C0003EDCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A02A1532DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A02A1542DFD95C0003EDCCC /* Debug */,
+				3A02A1552DFD95C0003EDCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A02A1562DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A02A1572DFD95C0003EDCCC /* Debug */,
+				3A02A1582DFD95C0003EDCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A02A1592DFD95C0003EDCCC /* Build configuration list for PBXNativeTarget "Tamagoci wellness Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A02A15A2DFD95C0003EDCCC /* Debug */,
+				3A02A15B2DFD95C0003EDCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A02A1202DFD95BF003EDCCC /* Project object */;
+}
