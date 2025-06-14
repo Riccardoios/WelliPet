@@ -12,10 +12,16 @@ struct TamagociView: View {
     
     var body: some View {
         VStack(spacing: 8) {
-            AnimatedImages(images: TamagociStatus.happy.images)
-            ProgressView("Life", value: viewModel.life)
-                .progressViewStyle(LinearProgressViewStyle())
-                .padding([.leading, .trailing])
+            AnimatedImages(images: viewModel.status.images)
+            HStack {
+                ProgressView("Life", value: viewModel.status.life)
+                    .progressViewStyle(LinearProgressViewStyle())
+                    .padding([.leading, .trailing])
+                VStack {
+                    Text(" BPM")
+                    Text(viewModel.currentHeartRate, format: .number.precision(.fractionLength(0)))
+                }
+            }
         }
     }
 }
